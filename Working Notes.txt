@@ -1,0 +1,9 @@
+﻿https://www.mikesdotnetting.com/article/259/asp-net-mvc-5-with-ef-6-working-with-files
+https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/
+
+PMC
+Install-Package EntityFramework
+add-migration Files
+update-database
+
+Note 3-May-2019 # Need to create the DB first
