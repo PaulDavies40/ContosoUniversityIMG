@@ -1,6 +1,6 @@
 # ContosoUniversityIMG
 
-Test Project to learn how to handel Images in MVC 
+Test Project to learn how to handle Images in MVC 
 
 ## Getting Started
 
