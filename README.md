@@ -1,87 +1,56 @@
 # ContosoUniversityIMG
 
-One Paragraph of project description goes here
+Test Project to learn how to handel Images in MVC 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Instructions to get started.
+PMC
+Install-Package EntityFramework
+add-migration Files
+update-database
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Based on https://github.com/aspnet/AspNetDocs/blob/master/aspnet/mvc/overview
 
 ```
-Give examples
+using VS2019
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Need to create the DB first
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+only deployed localy
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/
+ASP.NET MVC 5 with EF 6 - Working With Files
+https://www.mikesdotnetting.com/article/259/asp-net-mvc-5-with-ef-6-working-with-files
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Intial build  	= 3-May-2019
+Revised  		= 14-May-2019
+Add 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Rick Anderson** - *Initial work* - https://github.com/Rick-Anderson
+Revised
+* **Mike Brind** - *Revised add images* https://github.com/mikebrind
+Greate webbsite http://www.mikesdotnetting.com 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
+* **Paul Davies** - *Work in progress*   https://github.com/PaulDavies40
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Rick Anderson 
+Mike Brind
