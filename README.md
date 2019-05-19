@@ -5,9 +5,13 @@ Test Project to learn how to handel Images in MVC
 ## Getting Started
 
 Instructions to get started.
-PMC
+
+PMC 
+
 Install-Package EntityFramework
+
 add-migration Files
+
 update-database
 
 ### Prerequisites
@@ -29,14 +33,18 @@ only deployed localy
 ## Contributing
 
 https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/
+
 ASP.NET MVC 5 with EF 6 - Working With Files
+
 https://www.mikesdotnetting.com/article/259/asp-net-mvc-5-with-ef-6-working-with-files
 
 ## Versioning
 
 Intial build  	= 3-May-2019
+
 Revised  		= 14-May-2019
-Add 
+
+Added Table 
 
 ## Authors
 
@@ -53,4 +61,5 @@ This project is licensed under the MIT License
 ## Acknowledgments
 
 Rick Anderson 
+
 Mike Brind
