@@ -38,26 +38,28 @@
 
     @foreach (var item in Model)
     {
-<tr>
-    <td>
-@*Working on this FileID == id ???? *@
-        <img src="~/File?id=@item.Files.First(f => f.FileType == FileType.Avatar).FileId" alt="Avatar" height=50 width=50 />
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.LastName)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.FirstMidName)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.EnrollmentDate)
-    </td>
-    <td>
-        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-    </td>
-</tr>
+        <tr>
+            <td>
+                @if (item.Files.Any (f =>f.FileType == FileType.Avatar))
+                {
+                   <img src="~/File?id=@item.Files.First(f => f.FileType == FileType.Avatar).FileId" alt="Avatar" height=50 width=50 />
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstMidName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnrollmentDate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
     }
 
 </table>

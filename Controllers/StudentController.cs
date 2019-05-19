@@ -34,17 +34,14 @@ namespace ContosoUniversity.Controllers
             }
 
             ViewBag.CurrentFilter = searchString;
-
-            var students = from s in db.Students
+        
+                var students = from s in db.Students
                            select s;
             if (!String.IsNullOrEmpty(searchString))
             {
                 students = students.Where(s => s.LastName.Contains(searchString)
                                        || s.FirstMidName.Contains(searchString));
             }
- // Working on thies ID == id ????
-            Student student = db.Students.Include(s => s.Files).SingleOrDefault(s => s.ID == page);
-
             switch (sortOrder)
             {
                 case "name_desc":
